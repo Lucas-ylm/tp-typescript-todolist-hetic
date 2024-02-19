@@ -1,4 +1,3 @@
-// TaskItem.tsx
 import React from 'react';
 import { Task } from './types.ts';
 

@@ -9,7 +9,6 @@ const App: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([
     { id: 1, text: 'Faire les courses', completed: false },
     { id: 2, text: 'Apprendre TypeScript', completed: true },
-    // ... autres tâches
   ]);
 
   const handleToggle = (id: number) => {
